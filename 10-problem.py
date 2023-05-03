@@ -12,6 +12,7 @@ Update the set by adding elements from an iterable/another set.
 >>> print H
 set(['a', 'c', 'e', 'H', 'k', 'n', 'r', 'R'])
 '''
+
 '''
 Task
 The students of District College have subscriptions to English and French newspapers. Some students have subscribed only to English, some have subscribed to only French and some have subscribed to both newspapers.
@@ -93,7 +94,7 @@ Eng_Sub = int(input())
 Eng_Stud = set(map(int,input().split()))
 Fr_Sub = int(input())
 Fr_Stud = set(map(int, input().split()))
-print(len(Eng_Stud - Fr_Stud)))
+print(len(Eng_Stud - Fr_Stud))
 
 '''
 Task
